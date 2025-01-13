@@ -1,0 +1,51 @@
+Team,Total,Wickets
+Delhi Daredevils,168,8
+---
+Batter,Dismissal,Runs,Balls,4s,6s
+SV Samson,run out (BA Stokes),2,4,0,0
+KK Nair,c JD Unadkat b BA Stokes,64,45,9,0
+SS Iyer,c MS Dhoni b JD Unadkat,3,4,0,0
+RR Pant,c DT Christian b A Zampa,36,22,4,2
+MN Samuels,c MS Dhoni b DT Christian,27,21,1,2
+CJ Anderson,st MS Dhoni b Washington Sundar,3,5,0,0
+PJ Cummins,b BA Stokes,11,6,0,1
+A Mishra,not out,13,9,0,1
+Mohammed Shami,c BA Stokes b JD Unadkat,2,4,0,0
+---
+Noballs,Wides,Legbyes,Byes
+0,4,3,0
+---
+Bowler,O,R,W
+JD Unadkat,4.0,29,2
+SN Thakur,3.0,36,0
+Washington Sundar,3.0,23,1
+BA Stokes,4.0,33,2
+A Zampa,4.0,29,1
+DT Christian,2.0,18,1
+---
+
+Team,Total,Wickets
+Rising Pune Supergiant,161,7
+---
+Batter,Dismissal,Runs,Balls,4s,6s
+AM Rahane,b Z Khan,0,1,0,0
+RA Tripathi,c RR Pant b Z Khan,7,6,1,0
+SPD Smith,lbw S Nadeem,38,32,4,1
+MK Tiwary,b PJ Cummins,60,45,5,3
+BA Stokes,c CJ Anderson b Mohammed Shami,33,25,3,2
+MS Dhoni,run out (Mohammed Shami),5,5,0,0
+DT Christian,lbw Mohammed Shami,3,3,0,0
+Washington Sundar,not out,5,3,0,0
+---
+Noballs,Wides,Legbyes,Byes
+0,5,5,0
+---
+Bowler,O,R,W
+Z Khan,4.0,25,2
+Mohammed Shami,4.0,37,2
+S Nadeem,3.0,21,1
+A Mishra,3.0,26,0
+PJ Cummins,4.0,35,1
+MN Samuels,1.0,12,0
+CJ Anderson,1.0,5,0
+
