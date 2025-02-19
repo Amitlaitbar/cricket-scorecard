@@ -52,13 +52,6 @@ export const isFairDelivery = (delivery) =>
   !('extras' in delivery) ||
   !(('noballs' in delivery.extras) || ('wides' in delivery.extras));
 
-// const updateBattingStatsFor = (delivery) => ({
-//   Runs: delivery.runs.batter,
-//   Balls: isFairDelivery(delivery) ? 1 : 0,
-//   '4s': isBoundry(delivery) ? 1 : 0,
-//   '6s': isSix(delivery) ? 1 : 0
-// });
-
 const updateBatsmanStats = (batsMan, { ...batsmenInfo }, delivery) => {
   batsmenInfo[batsMan].Batter = delivery.batter;
   batsmenInfo[batsMan].Runs += delivery.runs.batter;
@@ -137,7 +130,7 @@ const formatExtrasDetails = (data) => {
 const countExtra = (extraType, { extras }) =>
   extraType in extras ? extras[extraType] : 0;
 
-const updateExtrasData = ({ ...extrasData }, delivery) => { // write different fucntion for add values
+const updateExtrasData = ({ ...extrasData }, delivery) => {
   if (!('extras' in delivery)) return extrasData;
 
   extrasData.Noballs += countExtra('noballs', delivery);
